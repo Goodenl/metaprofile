@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Login</title>
+</head>
+<body class="login-page">
+
+  <div class="page" id="page">
+		<!-- Main -->
+		<main class="content">
+			<div class="container">
+		 		
+		 		<section class="login">
+		 			<img class="login__logo" src="assets/images/logo.png" alt="Логотип">
+		 		
+		 			<div class="login__mask"></div>
+		 		
+		 			<form class="form form--login" action="#" method="POST">
+		 				<input class="form__control" type="text" name="login" required placeholder="Логин">
+		 				<input class="form__control" type="password" name="password" required placeholder="Пароль">
+		 		
+		 				<label class="form__checkbox" for="remember">
+		 					<input class="" type="checkbox" name="remember" id="remember">
+		 					<p>запомнить меня</p>
+		 				</label>
+		 		
+		 				<button class="btn btn--login" type="submit">Вход</button>
+		 			</form>
+		 		
+		 			<div class="footer">
+		 				<a href="metaprofile.ru">METAPROFiLE.ru</a>
+		 				<p class="footer__text">Инфомация об этом приложении</p>
+		 			</div>
+		 		</section>
+		 		
+		 		<div class="modal">
+		 			<div class="modal__content">
+		 				<button class="modal__close" data-type="close" type="button">
+		 					<img src="assets/images/close.svg" alt="Закрыть">
+		 				</button>
+		 		
+		 				<h2 class="modal__title">Первый вход</h2>
+		 		
+		 				<p class="model__text">Вы авторизуетесь впервые,<br>пожалуйста подтвердите<br>и хорошо запомните пароль</p>
+		 		
+		 				<button class="btn btn--blue" data-type="close" type="button">Хорошо</button>
+		 			</div><!-- /.modal__content -->
+		 		</div><!-- /.modal -->			</div>
+		</main>
+  </div>
+
+  <!-- JS -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
